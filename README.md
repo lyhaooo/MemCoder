@@ -133,30 +133,3 @@ src/memcoder/
 ├── config.py
 └── domain.py
 ```
-
-## Design references and attribution
-
-MemCoder is an original implementation informed by publicly documented ideas from:
-
-- [mini-SWE-agent](https://github.com/SWE-agent/mini-swe-agent): minimal linear agent loop,
-  independent subprocess actions, and trajectory-oriented evaluation.
-- [LangGraph](https://github.com/langchain-ai/langgraph): explicit stateful workflow orchestration.
-- [LangMem](https://github.com/langchain-ai/langmem) and [Mem0](https://github.com/mem0ai/mem0):
-  memory extraction, consolidation, and retrieval lifecycle concepts.
-- [Aider](https://github.com/Aider-AI/aider): benchmark-first engineering and repository context ideas.
-- [Graphiti](https://github.com/getzep/graphiti): temporal and graph-memory concepts for future work.
-
-No source code from those projects is copied into this repository. If future changes reuse upstream code,
-the corresponding copyright and license notices must be retained.
-
-## Roadmap
-
-- Docker execution backend with disabled networking.
-- Repository map and patch-based editing mode.
-- Lightweight entity/relation memory and optional Graphiti adapter.
-- Memory conflict detection, decay policies, and retrieval calibration.
-- SWE-bench-style repository tasks in addition to standalone Python problems.
-
-## License
-
-MIT
