@@ -8,7 +8,6 @@ version = "0.1.0"
 description = "A memory-augmented coding agent with an auditable LangGraph workflow."
 readme = "README.md"
 requires-python = ">=3.11"
-license = { file = "LICENSE" }
 authors = [{ name = "MemCoder contributors" }]
 dependencies = [
   "httpx>=0.27,<1",

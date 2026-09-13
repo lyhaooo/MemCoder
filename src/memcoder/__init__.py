@@ -1,5 +1,3 @@
-"""MemCoder: a memory-augmented coding agent."""
-
 from memcoder.agent.workflow import MemCoderAgent
 from memcoder.config import Settings
 

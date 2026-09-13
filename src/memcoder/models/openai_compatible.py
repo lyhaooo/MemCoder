@@ -96,7 +96,6 @@ class OpenAICompatibleModel:
                 "format": {
                     "type": "json_schema",
                     "name": schema.__name__.lower(),
-                    "strict": True,
                     "schema": schema.model_json_schema(),
                 }
             },

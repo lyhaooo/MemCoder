@@ -1,9 +1,5 @@
 # Architecture
 
-## Goals
-
-MemCoder makes the agent loop and memory lifecycle small enough to inspect during an interview or
-experiment. The system emphasizes traceability and ablation over broad IDE features.
 
 ## Workflow state
 
